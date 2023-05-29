@@ -41,5 +41,5 @@ func main() {
 	// e.POST("/users", userHandlerAPI.CreateUser)
 	// e.POST("/login", userHandlerAPI.Login)
 
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":80"))
 }

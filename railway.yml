@@ -1,7 +1,7 @@
 version: 2
 services:
   web:
-    image: railwayapp/golang:1.16
+    image: railwayapp/golang:1.20
     env:
       - DBHOST=${MYSQLHOST}
       - DBPORT=${MYSQLPORT}
