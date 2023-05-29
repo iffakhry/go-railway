@@ -9,3 +9,4 @@ services:
       - DB_PASSWORD=${DBPASS}
       - DB_NAME=${DBNAME}
     command: go run main.go
+    
