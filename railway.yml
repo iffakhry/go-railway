@@ -1,0 +1,11 @@
+version: 2
+services:
+  web:
+    image: railwayapp/golang:1.20
+    env:
+      - DB_HOST=${DBHOST}
+      - DB_PORT=${DBPORT}
+      - DB_USER=${DBUSER}
+      - DB_PASSWORD=${DBPASS}
+      - DB_NAME=${DBNAME}
+    command: go run main.go
